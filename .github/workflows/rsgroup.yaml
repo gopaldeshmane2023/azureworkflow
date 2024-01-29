@@ -8,7 +8,7 @@ jobs:
   create-resource-group:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@master
       - name: Login to Azure
         uses: azure/login@v1
         with:
