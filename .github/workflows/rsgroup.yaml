@@ -19,5 +19,4 @@ jobs:
         with:
           scope: "subscriptions/${{ secrets.AZURE_SUBSCRIPTION_ID }}"
           template: "./azure-resource-group.json"
-          parameters: "./azure-resource-group.parameters.json"
-          deploymentName: your-resource-group-name
+          deploymentName: workflowresource
